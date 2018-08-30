@@ -4,6 +4,6 @@ namespace Space
 {
     public class Globe
     {
-        public string GetGlobeColor() => "Green";
+        public string GetColor() => "Green";
     }
 }
