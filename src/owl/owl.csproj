@@ -1,8 +1,21 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp2.1</TargetFramework>
-  </PropertyGroup>
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>netcoreapp2.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Reference Include="Globe1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <HintPath>..\Globe1\bin\Debug\netcoreapp2.1\Globe1.dll</HintPath>
+            <Aliases>Lib1</Aliases>
+        </Reference>
+
+        <Reference Include="Globe2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <HintPath>..\Globe2\bin\Debug\netstandard2.0\Globe2.dll</HintPath>
+            <Aliases>Lib2</Aliases>
+        </Reference>
+    </ItemGroup>
 
 </Project>
+
